@@ -1,0 +1,22 @@
+#N canvas 532 339 403 251 10;
+#X obj 102 21 inlet;
+#X obj 188 21 inlet;
+#X msg 188 44 0;
+#X obj 101 101 cnv 15 238 48 empty empty empty 20 12 0 14 -163519 -66577
+0;
+#X obj 126 120 hsl 160 15 0 0.99 0 0 empty empty empty 40 8 0 10 -262144
+-1 -1 0 1;
+#X floatatom 291 120 5 0 0.99 0 - - -;
+#X text 117 135 0%;
+#X obj 291 185 outlet;
+#X text 278 134 99%;
+#X obj 165 102 cnv 15 1 1 empty empty Feedback 20 8 0 14 -163519 -66577
+0;
+#X obj 102 43 unpack f f;
+#X connect 0 0 10 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 4 0 5 0;
+#X connect 5 0 7 0;
+#X connect 10 1 4 0;
+#X coords 0 -1 1 1 240 50 2 100 100;

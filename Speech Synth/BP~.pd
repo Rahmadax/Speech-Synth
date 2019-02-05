@@ -1,0 +1,54 @@
+#N canvas 868 223 450 599 10;
+#X obj 101 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X floatatom 101 203 2 0 9 0 - - -;
+#X floatatom 112 203 2 0 9 0 - - -;
+#X floatatom 123 203 2 0 9 0 - - -;
+#X floatatom 134 203 2 0 9 0 - - -;
+#X floatatom 145 203 2 0 9 0 - - -;
+#X floatatom 156 203 2 0 9 0 - - -;
+#X floatatom 167 203 2 0 9 0 - - -;
+#X floatatom 178 203 2 0 9 0 - - -;
+#X floatatom 189 203 2 0 9 0 - - -;
+#X floatatom 200 203 2 0 9 0 - - -;
+#X floatatom 211 203 2 0 9 0 - - -;
+#X floatatom 222 203 2 0 9 0 - - -;
+#X floatatom 233 203 2 0 9 0 - - -;
+#X floatatom 244 203 2 0 9 0 - - -;
+#X floatatom 255 203 2 0 9 0 - - -;
+#X floatatom 266 203 2 0 9 0 - - -;
+#X floatatom 276 203 2 0 9 0 - - -;
+#X obj 112 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 123 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 134 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 145 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 156 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 167 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 178 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 189 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 200 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 211 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 222 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 233 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 244 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 255 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 266 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X obj 276 102 vsl 10 100 0 9 0 0 empty empty empty 0 -9 0 10 -262144
+-258113 -1 0 1;
+#X connect 0 0 1 0;
+#X coords 0 -1 1 1 190 119 2 100 100;

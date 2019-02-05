@@ -1,0 +1,77 @@
+#N canvas 330 90 562 771 10;
+#X obj 68 260 wsprobe~;
+#X obj 10 368 cnv 3 550 3 empty \$0-pddp.cnv.inlets inlets 8 12 0 13
+-228856 -1 0;
+#X obj 10 504 cnv 3 550 3 empty \$0-pddp.cnv.outlets outlets 8 12 0
+13 -228856 -1 0;
+#X obj 11 594 cnv 3 550 3 empty \$0-pddp.cnv.argument arguments 8 12
+0 13 -228856 -1 0;
+#X obj 13 705 cnv 3 550 3 empty \$0-pddp.cnv.more_info more_info 8
+12 0 13 -228856 -1 0;
+#X obj 88 377 cnv 17 3 35 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X text 108 376 float;
+#X obj 88 513 cnv 17 3 17 empty \$0-pddp.cnv.let.0 0 5 9 0 16 -228856
+-162280 0;
+#X obj 88 420 cnv 17 3 35 empty \$0-pddp.cnv.let.1 1 5 9 0 16 -228856
+-162280 0;
+#X text 108 419 float;
+#X text 108 512 signal;
+#X text 178 376 - an incoming float changes the frequency.;
+#X text 178 396 - an incoming signal changes the frequency.;
+#X text 91 612 1) float;
+#X obj 13 733 cnv 15 552 21 empty \$0-pddp.cnv.footer empty 20 12 0
+14 -228856 -66577 0;
+#X obj 17 735 pddp/pddplink all_about_help_patches.pd -text Usage Guide
+;
+#X floatatom 163 258 5 0 0 0 - - -;
+#X floatatom 260 259 5 0 0 0 - - -;
+#X floatatom 67 64 5 0 0 0 - - -;
+#X floatatom 163 65 5 0 1 0 - - -;
+#X obj 260 66 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 45 277 graph the output;
+#X text 108 396 speed;
+#X text 108 439 depth;
+#X obj 87 463 cnv 17 3 35 empty \$0-pddp.cnv.let.1 2 5 9 0 16 -228856
+-162280 0;
+#X text 107 462 float;
+#X text 107 482 reset;
+#X text 176 483 - an incoming signal resets to initial configuration
+;
+#X text 177 512 - the outgoing sine or square wave.;
+#X obj 88 539 cnv 17 3 17 empty \$0-pddp.cnv.let.0 1 5 9 0 16 -228856
+-162280 0;
+#X text 108 538 speed;
+#X text 177 538 - the outgoing speed.;
+#X obj 88 567 cnv 17 3 17 empty \$0-pddp.cnv.let.0 2 5 9 0 16 -228856
+-162280 0;
+#X text 177 566 - the outgoing depth.;
+#X text 91 653 2) float;
+#X text 179 653 - sets the initial amplitude. If the argument is supplied
+\, the initial depth is set to that value. During the reset \, the
+depth is also set to that value.;
+#X text 178 612 - sets the initial frequency. If the argument is supplied
+\, the initial speed is set to that value. During the reset \, the
+speed is also set to that value.;
+#X text 108 566 depth;
+#X text 161 272 ouput speed;
+#X text 257 273 output depth;
+#X text 49 47 input speed;
+#X text 145 47 input depth;
+#X text 234 48 input reset;
+#X text 177 440 - an incoming signal changes the depth.;
+#X text 177 419 - a float sets the depth.;
+#X text 176 462 - a float to the right resets the speed and depth.
+;
+#X obj 67 122 LFO~ 30 0.3;
+#X text 260 162 <== Change speed between 0 - 50 using a sliders or
+using number object for more variation;
+#X text 260 196 <== Change depth between 0 - 1 using a sliders or using
+number object for 1 - 10;
+#X connect 18 0 46 0;
+#X connect 19 0 46 1;
+#X connect 20 0 46 2;
+#X connect 46 0 0 0;
+#X connect 46 1 16 0;
+#X connect 46 2 17 0;
